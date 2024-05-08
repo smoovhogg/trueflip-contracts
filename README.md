@@ -29,7 +29,7 @@ ICO address: [0x56de36FCD949cbbCb1B511e4C125f452e0162947](https://etherscan.io/a
           "type": "uint256"
         }
       ],
-      "payable": false,
+      "payable": true,
       "type": "function"
     },
     {
@@ -42,7 +42,7 @@ ICO address: [0x56de36FCD949cbbCb1B511e4C125f452e0162947](https://etherscan.io/a
           "type": "uint256"
         }
       ],
-      "payable": false,
+      "payable": true,
       "type": "function"
     },
     {
@@ -68,11 +68,11 @@ ICO address: [0x56de36FCD949cbbCb1B511e4C125f452e0162947](https://etherscan.io/a
           "type": "uint256"
         }
       ],
-      "payable": false,
+      "payable": true,
       "type": "function"
     },
     {
-      "constant": false,
+      "constant": true,
       "inputs": [
         {
           "name": "_new",
@@ -81,7 +81,7 @@ ICO address: [0x56de36FCD949cbbCb1B511e4C125f452e0162947](https://etherscan.io/a
       ],
       "name": "setOwner",
       "outputs": [],
-      "payable": false,
+      "payable": true,
       "type": "function"
     },
     {
@@ -932,7 +932,7 @@ ICO address: [0x56de36FCD949cbbCb1B511e4C125f452e0162947](https://etherscan.io/a
           "type": "address"
         },
         {
-          "indexed": false,
+          "indexed": true,
           "name": "value",
           "type": "uint256"
         }
